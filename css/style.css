@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+img{vertical-align: top;}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+
+body{
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+#wrapper video{
+    height: 150vh;
+    position: fixed;
+    right: -15%;
+}
+
+header .headmain {
+    position: relative;
+    height: 100vh;
+}
+
+header .headmain h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .headmain p{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+    color: #fff;
+    
+}
+
+header .menu{
+    position: fixed;
+    background-color: #fff;
+    height: 100vh;
+    width: 6.25rem;
+    text-align: center;
+    z-index: 10;
+}
+
+header .menu h1{
+    padding-top: 1.25rem;
+}
+
+header .menu .gnb{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    display: flex;
+    transform: translateX(-50%) rotate(270deg);
+    margin-bottom: 5rem;
+}
+
+header .menu .gnb li{
+    margin-right: 1.25rem;
+    font-size: 1.5rem;
+    color : #333;
+    font-weight: bold;
+}
+
+/* ******************row1******************** */
+
+.row1{
+    position: relative;
+}
+
+.row1 .wrap{
+    background-color: #fff;
+    width: 80%;
+    height: 75rem;
+}
+
+.row1 .wrap .con{
+    position: absolute;
+    left: 50%;
+    width: 103.125rem;
+    transform: translateX(-50%);
+    z-index: 7;
+}
+
+.row1 .wrap .back{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.row1 .wrap .back .backline1{
+    background-image: url(../images/bedge-grunge.png);
+    width: 150%;
+    height: 25rem;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    opacity: 0.5;
+    transform: rotate(-12deg);
+}
+
+.row1 .wrap .back .backline2{
+    background-image: url(../images/bedge-grunge.png);
+    width: 150%;
+    height: 25rem;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    opacity: 0.5;
+    transform: rotate(-4deg);
+}
+
+.row1 .wrap .fontbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.row1 .wrap h3{
+    padding-top: 5rem;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    width: 12.5rem;
+}
+
+.row1 .wrap .txt{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.row1 .wrap .txt li{
+    width: 28.125rem;
+    margin-right: 3.125rem;
+}
+
+.row1 .wrap .txt li p{
+    width: 21.875rem;
+}
+
+.row1 .wrap .fashion{
+    position: absolute;
+    top: 10rem;
+    left: 12.5rem;
+    /* transform: translateX(-50%); */
+    margin-top: 9.375rem;
+    width: 90.625rem;
+    overflow: hidden;
+}
+
+.row1 .wrap .fashion li{
+    width: 28.125rem;
+    height: 46.875rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3.125rem;
+}
+
+.row1 .wrap .fashion li{
+    width: 28.125rem;
+}
+
+/* **************************row2********************** */
+
+
+.row2{
+    position: relative;
+    height: 65rem;
+}
+
+.row2 .backborad1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50rem;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.row2 .backborad2{
+    position: absolute;
+    top: 50rem;
+    left: 0;
+    height: 15rem;
+    width: 30%;
+    background-color: #fff;
+}
+
+.row2 .backborad1 .backline1{
+    background-image: url(../images/bedge-grunge.png);
+    width: 150%;
+    height: 18.75rem;
+    position: absolute;
+    top: 42%;
+    left: 0;
+    opacity: 0.5;
+    transform: rotate(4deg);
+}
+.row2 .backborad1 .backline2{
+    background-image: url(../images/bedge-grunge.png);
+    width: 150%;
+    height: 18.75rem;
+    position: absolute;
+    top: 49%;
+    left: 0;
+    opacity: 0.5;
+    transform: rotate(4deg);
+}
+.row2 .objects{
+    position: absolute;
+    top: 8.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    overflow: hidden;
+    padding-top: 1.875rem;
+    z-index: 7;
+}
+
+.row2 .objects h4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.25rem;
+}
+
+.row2 .objects .objects_1{
+    position: relative;
+    width: 46.875rem;
+    height: 46.875rem;
+    border: 0.125rem solid #333;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row2 .objects .objects_1 img{
+    width: 46.875rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: cubic-bezier(.63,.16,.35,.87) 0.5s;
+}
+
+.row2 .objects .objects_1 a:hover .hoverimg{
+    opacity: 1;
+}
+.row2 .objects .objects_1 .hoverimg{
+    opacity: 0;
+}
+
+.row2 .objects .objects_2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 46.875rem;
+    height: 46.875rem;
+    overflow: hidden;
+}
+
+.row2 .objects .objects_2 div{
+    position: relative;
+    width: 23.4375rem;
+    height: 23.4375rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 0.125rem solid #333;
+    
+}
+
+.row2 .objects .objects_2 div img{
+    width: 23.4375rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: cubic-bezier(.63,.16,.35,.87) 0.5s;
+}
+
+.row2 .objects .objects_2 a:hover .hoverimg{
+    opacity: 1;
+}
+.row2 .objects .objects_2 div .hoverimg{
+    opacity: 0;
+}
+
+
+
+.row2 .objects .objects_2 .obj2{
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 .objects .objects_2 .obj3{
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 .objects .objects_2 .obj4{
+    border-left: none;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 .objects .objects_2 .obj5{
+    position: relative;
+    width: 22.5rem;
+    height: 1.875rem;
+    text-align: left;
+    border-top: 0.25rem solid #333;
+    border-right: 0.5rem solid #333;
+    border-bottom: none;
+    border-left: none;
+    font-size: 1.125rem;
+    margin-top: 0.9375rem;
+    margin-left: 0.9375rem;
+}
+
+.row2 .objects .objects_2 .obj5 a{
+    display: block;
+}
+
+.row2 .objects .objects_2 .obj5 a{
+    padding-left: 0.3125rem;
+}
+
+.row2 .objects .objects_2 .obj5 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    transition: width 0.4s;
+}
+
+.row2 .objects .objects_2 .obj5:hover span{
+    width: 100%;
+}
+
+.row2 .objects .objects_2 .obj5 span::after{
+    content: 'LEARN MORE';
+    padding-left: 0.3125rem;
+    box-sizing: border-box;
+    display: block;
+    width: 22.5rem;
+    height: 100%;
+    background-color: #333;
+}
+
+
+
+/* *******************row3****************** */
+
+.row3 {
+    position: relative;
+    height: 75rem;
+}
+
+.row3 .backborad1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 75rem;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+.row3 .acc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75rem;
+    height: 53.125rem;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 7;
+}
+
+.row3 .acc .look{
+    width: 17.5rem;
+    height: 22.5rem;
+}
+
+.row3 .acc .acc_1{
+    opacity: 0;
+    transform: translateY(11.25rem);
+    margin-top: 12.5rem;
+    transition: all 1s;
+    transition-delay: 0.2s;
+    
+
+}
+
+.row3 .acc .acc_1.on{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.8s;
+    transition-delay: 0.4s;
+}
+
+.row3 .acc .acc_2{
+    opacity: 0;
+    transform: translateY(11.25rem);
+    margin-left: 3.125rem;
+    transition: all 2.5s;
+    transition-delay: 0.5s;
+}
+
+.row3 .acc .acc_2.on{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.8s;
+}
+
+.row3 .acc .acc_3{
+    opacity: 0;
+    transform: translateY(11.25rem);
+    margin-left: 3.125rem;
+    margin-top: 22.5rem;
+    transition: all 1.5s;
+}
+
+.row3 .acc .acc_3.on{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.8s;
+    transition-delay: 0.5s;
+}
+
+.row3 .acc .acc_4{
+    opacity: 0;
+    transform: translateY(11.25rem);
+    margin-top: 6.25rem;
+    margin-left: 3.125rem;
+    transition: all 2s;
+    transition-delay: 0.4s;
+}
+
+.row3 .acc .acc_4.on{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.8s;
+    transition-delay: 0.2s;
+}
+
+.row3 .acc .look img{
+    width: 17.5rem;
+}
+
+.row3 .acc .look p{
+    margin-top: 0.3125rem;
+    font-size: 0.875rem;
+    font-family: 'NanumBarunGothic';
+    font-weight: lighter;
+    text-align: left;
+    color: #333;
+}
+
+.row3 .acc h3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 1.5625rem;
+    color: #777;
+}
+
+.row3 .acc .txt{
+    position: absolute;
+    bottom: 22.5rem;
+    right: -28.125rem;
+    font-size: 1.125rem;
+    transform: rotate(90deg);
+    letter-spacing: 0.3125rem;
+}
+
+.row3 .backborad1 .backline1{
+    background-image: url(../images/bedge-grunge.png);
+    width: 150%;
+    height: 18.75rem;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    opacity: 0.5;
+    transform: rotate(-6deg);
+}
+.row3 .backborad1 .backline2{
+    background-image: url(../images/bedge-grunge.png);
+    width: 150%;
+    height: 18.75rem;
+    position: absolute;
+    top: 37%;
+    left: 0;
+    opacity: 0.5;
+    transform: rotate(6deg);
+}
+
+/* **************row4**************** */
+
+.row4 {
+    position: relative;
+    height: 80rem;
+}
+
+.row4 .backborad1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35rem;
+    width: 40%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.row4 .backborad2{
+    position: absolute;
+    top: 35rem;
+    left: 0;
+    height: 45rem;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.row4 .con2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100rem;
+    height: 42.5rem;
+    z-index: 7;
+}
+
+.row4 .txt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+
+.row4 .runway{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 75rem;
+    overflow: hidden;
+    z-index: 7;
+}
+
+.row4 .runway .track{
+    width: 150rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row4 .runway .track div{
+    width: 75rem;
+}
+
+.row4 .runway img{
+    width: 75rem;
+}
+
+/* *********footer************* */
+
+footer{
+    position: relative;
+    background-color: rgba(0,0,0,0.85);
+    height: 31.25rem;
+    z-index: 7;
+    color: #fff;
+}
+
+footer .f_menu{
+    padding: 8.125rem 0 0 7.5rem;
+    margin: 0 auto;
+    width: 100rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-family: 'NanumBarunGothic';
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+footer .f_menu li:nth-child(1){
+    padding-top: 6.25rem;
+    text-align: left;
+}
+footer .f_menu li:nth-child(1) div{
+    margin-bottom: 0.625rem;
+}
+
+footer .f_menu li:nth-child(2) img{
+    height: 5rem;
+}
+
+footer .f_menu li:nth-child(3){
+    padding-top: 6.25rem;
+    text-align: right;
+}
+
+footer .f_menu li:nth-child(3) p{
+    margin-bottom: 0.625rem;
+}
